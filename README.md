@@ -4,6 +4,14 @@ SymPyBotics
 Symbolic Framework for Modeling and Identification of Robot Dynamics
 
 Uses [Sympy](http://sympy.org) and [Numpy](http://www.numpy.org/) libraries.
+TestVersion|Result
+---|---
+numpy==1.18.2|OK
+sympy==1.0|OK
+sympy==1.4|OK
+sympy==0.7.4|NOT OK
+sympy==1.5|NOT OK
+
 
 [![Build Status](https://travis-ci.org/cdsousa/SymPyBotics.png?branch=master)](https://travis-ci.org/cdsousa/SymPyBotics)
 
