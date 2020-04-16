@@ -11,9 +11,12 @@ TestVersion|Result for Python3
 ---|---
 numpy==1.18.2|OK
 sympy==1.0|OK
-sympy==1.4|OK
-sympy==0.7.4|NOT OK
+sympy==1.1.1 |OK
+sympy==1.2|建模OK，最小参数NOT OK
+sympy==1.3|建模OK，最小参数NOT OK
+sympy==1.4|建模OK，最小参数NOT OK
 sympy==1.5|NOT OK
+sympy==0.7.4|NOT OK
 
 
 [![Build Status](https://travis-ci.org/cdsousa/SymPyBotics.png?branch=master)](https://travis-ci.org/cdsousa/SymPyBotics)
