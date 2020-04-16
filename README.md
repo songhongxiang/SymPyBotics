@@ -47,7 +47,7 @@ Definition of a 2 DOF example robot:
 ```
 
 `L` is the link inertia tensor computed about the link frame;
-`l` is the link first moment of inertia;
+`l` is the link first moment of inertia;Form Author：The small l is the [x,y,z] vector from the i-th link frame origin to the i-th link center of mass in terms of the i-th link frame" times the mass of that link.
 `m` is the link mass.
 These are the so-called barycentric parameters, with respect to which the dynamic model is linear.
 
